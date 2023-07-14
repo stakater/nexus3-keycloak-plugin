@@ -5,11 +5,11 @@
 
     <groupId>org.github.flytreeleft</groupId>
     <artifactId>nexus3-keycloak-plugin</artifactId>
-    <version>0.6.0-SNAPSHOT</version>
+    <version>0.7.0</version>
     <name>${project.groupId}:${project.artifactId}</name>
     <packaging>bundle</packaging>
 
-    <url>https://github.com/flytreeleft/nexus3-keycloak-plugin</url>
+    <url>https://github.com/stakater/nexus3-keycloak-plugin</url>
     <description>
         This plugin adds a Keycloak realm to Sonatype Nexus OSS and enables you
         to authenticate with Keycloak Realm Users and authorize with Keycloak realm/client roles or groups.
@@ -27,7 +27,7 @@
     <parent>
         <groupId>org.sonatype.nexus.plugins</groupId>
         <artifactId>nexus-plugins</artifactId>
-        <version>3.15.3-01</version>
+        <version>3.57.0-01</version>
     </parent>
 
     <properties>
@@ -36,32 +36,32 @@
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
 
-        <keycloak.version>9.0.2</keycloak.version>
+        <keycloak.version>22.0.0</keycloak.version>
     </properties>
 
     <issueManagement>
         <system>Github Issues</system>
-        <url>https://github.com/flytreeleft/nexus3-keycloak-plugin/issues</url>
+        <url>https://github.com/stakater/nexus3-keycloak-plugin/issues</url>
     </issueManagement>
 
     <organization>
-        <name>Crazydan Studio</name>
-        <url>https://crazydan.org</url>
+        <name>Stakater</name>
+        <url>https://www.stakater.com</url>
     </organization>
 
     <scm>
-        <connection>scm:git:git://github.com/flytreeleft/nexus3-keycloak-plugin.git</connection>
-        <developerConnection>scm:git:git@github.com:flytreeleft/nexus3-keycloak-plugin.git</developerConnection>
-        <url>https://github.com/flytreeleft/nexus3-keycloak-plugin</url>
+        <connection>scm:git:git://github.com/stakater/nexus3-keycloak-plugin.git</connection>
+        <developerConnection>scm:git:git@github.com:stakater/nexus3-keycloak-plugin.git</developerConnection>
+        <url>https://github.com/stakater/nexus3-keycloak-plugin</url>
     </scm>
 
     <developers>
         <developer>
-            <id>flytreeleft</id>
-            <name>flytreeleft</name>
-            <email>flytreeleft@126.com</email>
-            <url>https://github.com/flytreeleft</url>
-            <organization>Crazydan Studio</organization>
+            <id>stakater</id>
+            <name>stakater</name>
+            <email>hello@stakater.com</email>
+            <url>https://github.com/stakater</url>
+            <organization>Stakater</organization>
             <roles>
                 <role>project-owner</role>
                 <role>project-developer</role>
@@ -83,9 +83,18 @@
             <name>TarasRozputnii</name>
             <url>https://github.com/TarasRozputnii</url>
         </contributor>
+        <contributor>
+            <name>Stakater</name>
+            <url>https://github.com/stakater</url>
+        </contributor>
     </contributors>
 
     <dependencies>
+        <dependency>
+            <groupId>com.sun.activation</groupId>
+            <artifactId>jakarta.activation</artifactId>
+            <version>1.2.1</version>
+        </dependency>
         <dependency>
             <groupId>org.keycloak</groupId>
             <artifactId>keycloak-core</artifactId>
@@ -204,12 +213,12 @@
         <repository>
             <id>github</id>
             <name>GitHub Apache Maven Packages</name>
-            <url>https://maven.pkg.github.com/flytreeleft/nexus3-keycloak-plugin</url>
+            <url>https://maven.pkg.github.com/stakater/nexus3-keycloak-plugin</url>
         </repository>
         <snapshotRepository>
             <id>github</id>
             <name>GitHub Apache Maven Packages</name>
-            <url>https://maven.pkg.github.com/flytreeleft/nexus3-keycloak-plugin</url>
+            <url>https://maven.pkg.github.com/stakater/nexus3-keycloak-plugin</url>
         </snapshotRepository>
     </distributionManagement>
 </project>

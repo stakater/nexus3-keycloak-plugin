@@ -1,7 +1,7 @@
-##  ⚠️  Please Note
+##  ⚠️ Note
 The Readme instructions belong to the [original repo](https://github.com/flytreeleft/nexus3-keycloak-plugin) and is not updated since.  
 
-This forked copy adds support for Nexus 3.57.0, Keycloak 22.0.1 with the 0.6.0 release of this plugin.
+This forked copy adds support for Nexus 3.58.0, Keycloak 21.1.2 with the 0.8.0 release of this plugin.
 
 Nexus3 Keycloak Plugin
 ===============================

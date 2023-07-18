@@ -41,7 +41,7 @@
 
     <issueManagement>
         <system>Github Issues</system>
-        <url>https://github.com/flytreeleft/nexus3-keycloak-plugin/issues</url>
+        <url>https://github.com/stakater/nexus3-keycloak-plugin/issues</url>
     </issueManagement>
 
     <organization>
@@ -50,9 +50,9 @@
     </organization>
 
     <scm>
-        <connection>scm:git:git://github.com/flytreeleft/nexus3-keycloak-plugin.git</connection>
-        <developerConnection>scm:git:git@github.com:flytreeleft/nexus3-keycloak-plugin.git</developerConnection>
-        <url>https://github.com/flytreeleft/nexus3-keycloak-plugin</url>
+        <connection>scm:git:git://github.com/stakater/nexus3-keycloak-plugin.git</connection>
+        <developerConnection>scm:git:git@github.com:stakater/nexus3-keycloak-plugin.git</developerConnection>
+        <url>https://github.com/stakater/nexus3-keycloak-plugin</url>
     </scm>
 
     <developers>
@@ -91,6 +91,10 @@
             <name>pantovad</name>
             <url>https://github.com/pantovad</url>
         </contributor>
+        <contributor>
+            <name>Stakater</name>
+            <url>https://github.com/stakater</url>
+        </contributor>        
     </contributors>
 
     <dependencies>
@@ -217,12 +221,12 @@
         <repository>
             <id>github</id>
             <name>GitHub Apache Maven Packages</name>
-            <url>https://maven.pkg.github.com/${env.GITHUB_USERNAME}/nexus3-keycloak-plugin</url>
+            <url>https://maven.pkg.github.com/stakater/nexus3-keycloak-plugin</url>
         </repository>
         <snapshotRepository>
             <id>github</id>
             <name>GitHub Apache Maven Packages</name>
-            <url>https://maven.pkg.github.com/${env.GITHUB_USERNAME}/nexus3-keycloak-plugin</url>
+            <url>https://maven.pkg.github.com/stakater/nexus3-keycloak-plugin</url>
         </snapshotRepository>
     </distributionManagement>
 </project>
